@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    text-align: center;
+    font-family: 'Baloo Bhai 2', cursive;
+    
+}
+body{
+    margin: 0;
+     background-repeat: no-repeat;
+     
+     /* background: linear-gradient(90deg,gray,aqua); */
+ 
+    
+}
+#header{
+    /* background-color: aqua; */
+    /* height: 70px; */
+}
+#brandname{
+    background-color:yellow;
+    height: 70px;
+    width: 45%;
+    float: left;
+    line-height: 70px;
+    text-align: center;
+}
+#anchors{
+    background-color:blue;
+    height: 70px;
+    width: 55%;
+    float: right;
+    line-height: 70px;
+    text-align: center;               
+}
+a{
+    color:white;
+    text-decoration: none;
+    margin-left: 100px;
+    float: center;
+    
+}
+#btn{
+    background-color: yellow;
+    border: 2px solid blue;
+    padding: 5px 50px ;
+}
+/* intro
+ */
+
+ #intro{
+     width: 100%;
+     height: 700px;
+     /* border: 1px solid red; */
+     /* background-color: gray; */
+ }
+ #introtext{
+     float: left;
+     width: 40%;
+     height: 200px;
+     margin-top: 250px ;
+     margin-left:10px ;
+     /* border: 1px solid red; */
+ }
+ #introtext h2{
+    color: blue;
+    margin: 10px; 
+ }
+
+ #introimg{
+     float: right;
+     width: 50%;
+     height: 600px;
+ }
+
+ #welcome{
+     color: rgb(255, 166, 0);
+ }
+
+ #introimg img{
+     width: 550px;
+     height: 600px;
+     border: 5px dashed rgb(255, 196, 0);
+     border-radius: 50%;
+     background-color: rgb(245, 245, 245);
+     margin-top: 12px;
+ }
+
+
+#footer h6{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}
